@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title') - Student Manager</title>
+<<<<<<< HEAD
     @vite('resources/css/app.css')
+=======
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <!-- TailwindCSS Styles -->
+    <link rel="stylesheet" href="{{ tailwindcss('css/app.css') }}" />
+>>>>>>> feat/tailwindcss-layout
 </head>
 <body class="flex flex-col min-h-screen">
     <!-- Header -->
@@ -34,7 +40,7 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-4">
         <div class="container mx-auto px-4 text-center">
-            <p>&copy; {{ date('Y') }} Student Management System. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} Student Managementdasd System. All rights reserved.</p>
         </div>
     </footer>
 </body>

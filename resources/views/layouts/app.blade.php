@@ -4,13 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title') - Student Manager</title>
-<<<<<<< HEAD
-    @vite('resources/css/app.css')
-=======
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <!-- TailwindCSS Styles -->
     <link rel="stylesheet" href="{{ tailwindcss('css/app.css') }}" />
->>>>>>> feat/tailwindcss-layout
 </head>
 <body class="flex flex-col min-h-screen">
     <!-- Header -->
@@ -24,7 +20,7 @@
     <nav class="bg-gray-100 shadow">
         <div class="container mx-auto px-4">
             <div class="flex space-x-6 py-3">
-                <a href="/" class="@if(request()->is('/')) text-blue-600 font-bold @endif h">Home</a>
+                <a href="/" class="@if(request()->is('/')) text-blue-600 font-bold @endif hover:text-blue-600">Home</a>
                 <a href="/manage" class="@if(request()->is('manage')) text-blue-600 font-bold @endif hover:text-blue-600">Manage</a>
                 <a href="/search" class="@if(request()->is('search')) text-blue-600 font-bold @endif hover:text-blue-600">Search</a>
                 <a href="/about" class="@if(request()->is('about')) text-blue-600 font-bold @endif hover:text-blue-600">About</a>
@@ -40,7 +36,7 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-4">
         <div class="container mx-auto px-4 text-center">
-            <p>&copy; {{ date('Y') }} Student Managementdasd System. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} Student Management System. All rights reserved.</p>
         </div>
     </footer>
 </body>

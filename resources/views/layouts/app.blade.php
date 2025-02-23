@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title') - Student Manager</title>
     @vite('resources/css/app.css')
-
-    <!-- TailwindCSS Styles -->
-    <link rel="stylesheet" href="{{ tailwindcss('css/app.css') }}" />
 </head>
 <body class="flex flex-col min-h-screen">
     <!-- Header -->
@@ -21,7 +18,7 @@
     <nav class="bg-gray-100 shadow">
         <div class="container mx-auto px-4">
             <div class="flex space-x-6 py-3">
-                <a href="/" class="@if(request()->is('/')) text-blue-600 font-bold @endif hover:text-blue-600">Home</a>
+                <a href="/" class="@if(request()->is('/')) text-blue-600 font-bold @endif h">Home</a>
                 <a href="/manage" class="@if(request()->is('manage')) text-blue-600 font-bold @endif hover:text-blue-600">Manage</a>
                 <a href="/search" class="@if(request()->is('search')) text-blue-600 font-bold @endif hover:text-blue-600">Search</a>
                 <a href="/about" class="@if(request()->is('about')) text-blue-600 font-bold @endif hover:text-blue-600">About</a>

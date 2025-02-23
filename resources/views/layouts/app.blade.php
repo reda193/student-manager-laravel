@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title') - Student Manager</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-
-
     <!-- TailwindCSS Styles -->
     <link rel="stylesheet" href="{{ tailwindcss('css/app.css') }}" />
 </head>

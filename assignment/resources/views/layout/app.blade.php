@@ -25,7 +25,8 @@
         <div class="container mx-auto px-4">
             <div class="flex space-x-6 py-3">
                 <a href="{{ route('home') }}" class="@if(request()->routeIs('home')) text-blue-600 font-bold @endif hover:text-blue-600">Home</a>
-      
+                <a href="{{ url('/manage') }}" class="@if(request()->is('manage')) text-blue-600 font-bold @endif hover:text-blue-600">Manage</a>
+                <a href="{{ url('/search') }}" class="@if(request()->is('search')) text-blue-600 font-bold @endif hover:text-blue-600">Search</a>
                 <a href="{{ route('about') }}" class="@if(request()->routeIs('about')) text-blue-600 font-bold @endif hover:text-blue-600">About</a>
             </div>
         </div>

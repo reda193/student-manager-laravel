@@ -19,7 +19,7 @@
             @csrf
             <div class="grid grid-cols-1 gap-4">
                 <div>
-                    <label for="name" class="block mb-1">Name</label>
+                    <label for="name" class="block mb-1">Namee</label>
                     <input type="text" name="name" id="name" required 
                         class="w-full px-3 py-2 border rounded">
                 </div>

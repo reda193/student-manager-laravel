@@ -6,7 +6,6 @@
     <title>Student Manager</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Custom animations */
         @keyframes bounce {
             0%, 100% { transform: translateY(0); }
             50% { transform: translateY(-10px); }
@@ -41,7 +40,7 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-4">
         <div class="container mx-auto px-4 text-center">
-            <p>&copy; {{ date('Y') }} Student Management System. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} Inventory Management System. All rights reserved.</p>
         </div>
     </footer>
 </body>

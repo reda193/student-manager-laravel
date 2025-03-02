@@ -15,7 +15,7 @@
         </p>
     </div>
       
-    <!-- Sidebar section (20% width) with contact information -->
+    <!-- Sidebar section with contact information -->
     <div class="w-1/5 bg-gray-100 p-4 rounded">
         <h3 class="font-bold mb-4">IT Support</h3>
         <!-- Display the support team image from public/images directory -->

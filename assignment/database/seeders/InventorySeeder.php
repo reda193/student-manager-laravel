@@ -11,19 +11,19 @@ class InventorySeeder extends Seeder
     {
         $items = [
             [
-                'name' => 'Laptop Computer',
+                'name' => 'Computer',
                 'description' => 'High-performance laptop for students with 16GB RAM and 512GB SSD',
                 'product_code' => 'LC-001',
                 'price' => 899.99
             ],
             [
-                'name' => 'Scientific Calculator',
+                'name' => 'Calculator',
                 'description' => 'Advanced calculator with graphing capabilities for science and engineering students',
                 'product_code' => 'SC-102',
                 'price' => 69.99
             ],
             [
-                'name' => 'Wireless Headphones',
+                'name' => 'Headphones',
                 'description' => 'Noise-cancelling headphones with 30-hour battery life',
                 'product_code' => 'WH-250',
                 'price' => 129.99

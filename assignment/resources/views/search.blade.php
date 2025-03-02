@@ -10,8 +10,9 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">  <!-- Responsive grid layout: 1 column mobile, 3 columns desktop -->
                 <div>
                     <!-- Search term input field -->
+                     <!-- Retain previous search value if any -->
                     <label for="search" class="block mb-1">Search Term</label>
-                    <input type="text" name="search" id="search" value="{{ $search ?? '' }}"  <!-- Retain previous search value if any -->
+                    <input type="text" name="search" id="search" value="{{ $search ?? '' }}"  
                         class="w-full px-3 py-2 border rounded" 
                         placeholder="Enter search term...">
                 </div>

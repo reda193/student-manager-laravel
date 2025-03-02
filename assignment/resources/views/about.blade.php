@@ -1,6 +1,6 @@
-@extends('layout.app')
+@extends('layout.app')  
 
-@section('content')
+@section('content') 
 <div class="flex">
     <!-- Main content (80%) -->
     <div class="w-4/5 pr-8">
@@ -10,18 +10,18 @@
             delete inventory items with ease. You can also search for items based on various criteria.
         </p>
         <p>
-            Our system is built with Laravel and provides a simple yet powerful interface for all your inventory management needs.
+            Our system is built with Laravel and provides a simple interface for all your inventory management needs.
         </p>
     </div>
-    
+     
     <!-- Sidebar (20%) -->
     <div class="w-1/5 bg-gray-100 p-4 rounded">
         <h3 class="font-bold mb-4">IT Support</h3>
-        <img src="https://via.placeholder.com/150?text=Support" alt="IT Support" class="mb-4 rounded">
+        <img src="{{ asset('images/tech_supp.png') }}" alt="IT Support" class="mb-4 rounded">
         <p class="text-sm">
             Need help? Contact our IT support team:
-            <a href="mailto:support@example.com" class="text-blue-600 hover:underline">support@example.com</a>
+            <a href="mailto:support@support.com" class="text-blue-600 hover:underline">support@example.com</a>
         </p>
     </div>
-</div>
+</div> 
 @endsection
